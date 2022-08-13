@@ -1,0 +1,33 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-blue-text {
+  color: var(--accent-color);
+}
+
+.logo-theme-light {
+  margin-right: 93px;
+}
+
+.logo-theme-light,
+.logo-theme-light:link,
+.logo-theme-light:visited,
+.logo-theme-light:hover,
+.logo-theme-light:focus,
+.logo-theme-light:active {
+  color: #000000;
+}
+
+.logo-theme-dark,
+.logo-theme-dark:link,
+.logo-theme-dark:visited,
+.logo-theme-dark:hover,
+.logo-theme-dark:focus,
+.logo-theme-dark:active {
+  color: var(--primary-text-color-theme-dark);
+}
