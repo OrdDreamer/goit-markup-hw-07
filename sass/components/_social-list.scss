@@ -12,10 +12,10 @@
   border-radius: 50%;
   fill: var(--default-icon-color);
   transition: background-color var(--transition-dur-and-fun), fill var(--transition-dur-and-fun);
-}
 
-.social-list-item-link:focus,
-.social-list-item-link:hover {
-  background-color: var(--accent-color);
-  fill: #fff;
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+    fill: #fff;
+  }
 }

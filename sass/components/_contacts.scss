@@ -4,3 +4,48 @@
   line-height: 1.33;
   letter-spacing: 0.02em;
 }
+
+.contact-phone-theme-light,
+.contact-email-theme-light {
+  color: var(--secondary-text-color-theme-light);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color var(--transition-dur-and-fun), fill var(--transition-dur-and-fun);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contact-mail-icon,
+.contact-phone-icon {
+  display: block;
+  margin-right: 10px;
+
+  .contact-phone-theme-light &,
+  .contact-email-theme-light & {
+    fill: var(--secondary-text-color-theme-light);
+  }
+
+  .contact-phone-theme-light:hover &,
+  .contact-phone-theme-light:focus &,
+  .contact-email-theme-light:hover &,
+  .contact-email-theme-light:focus & {
+    fill: var(--accent-color);
+  }
+}
+
+.contact-phone-theme-dark,
+.contact-email-theme-dark {
+  color: var(--secondary-text-color-theme-dark);
+  transition: color var(--transition-dur-and-fun);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-text-color-theme-dark);
+  }
+}

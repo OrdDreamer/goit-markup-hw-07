@@ -25,12 +25,12 @@
   border: 1px solid var(--default-icon-color);
   fill: var(--default-icon-color);
   transition: border-color var(--transition-dur-and-fun), fill var(--transition-dur-and-fun);
-}
 
-.clients-item-link:focus,
-.clients-item-link:hover {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
+  &:focus,
+  &:hover {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+  }
 }
 
 .clients-item-icon {

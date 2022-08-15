@@ -28,24 +28,11 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   transition: color var(--transition-dur-and-fun);
-}
 
-.address-link:hover,
-.address-link:focus {
-  color: var(--accent-color);
-}
-
-.contact-phone-theme-dark,
-.contact-email-theme-dark {
-  color: var(--secondary-text-color-theme-dark);
-  transition: color var(--transition-dur-and-fun);
-}
-
-.contact-phone-theme-dark:hover,
-.contact-phone-theme-dark:focus,
-.contact-email-theme-dark:hover,
-.contact-email-theme-dark:focus {
-  color: var(--primary-text-color-theme-dark);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-subblock-title {
@@ -96,21 +83,21 @@
   padding: 15px;
   color: var(--primary-text-color-theme-dark);
   transition: border-color var(--transition-dur-and-fun);
-}
 
-.subscription-form-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  transform: translateY(-50%);
-}
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+  }
 
-.subscription-form-input:focus {
-  border-color: var(--accent-color);
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .subscription-form-submit {
@@ -128,11 +115,11 @@
   display: flex;
   gap: 10px;
   align-items: center;
-}
 
-.subscription-form-submit:focus,
-.subscription-form-submit:hover {
-  background-color: var(--accent-focus-color);
+  &:focus,
+  &:hover {
+    background-color: var(--accent-focus-color);
+  }
 }
 
 .subscription-form-submit-icon {

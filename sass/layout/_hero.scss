@@ -38,9 +38,9 @@
   margin: 30px auto 0 auto;
   padding: 10px 32px;
   transition: background-color var(--transition-dur-and-fun);
-}
 
-.order-button:hover,
-.order-button:focus {
-  background-color: var(--accent-focus-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-focus-color);
+  }
 }

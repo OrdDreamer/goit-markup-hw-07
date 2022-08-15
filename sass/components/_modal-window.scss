@@ -24,18 +24,18 @@
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: border-color var(--transition-dur-and-fun);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .modal-close-button-icon {
   transition: fill var(--transition-dur-and-fun);
-}
 
-.modal-close-button:hover,
-.modal-close-button:focus {
-  border-color: var(--accent-color);
-}
-
-.modal-close-button:hover .modal-close-button-icon,
-.modal-close-button:focus .modal-close-button-icon {
-  fill: var(--accent-color);
+  .modal-close-button:hover &,
+  .modal-close-button:focus & {
+    fill: var(--accent-color);
+  }
 }

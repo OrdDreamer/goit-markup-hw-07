@@ -12,22 +12,18 @@
 
 .logo-theme-light {
   margin-right: 93px;
+
+  &,
+  &:visited,
+  &:active {
+    color: #000000;
+  }
 }
 
-.logo-theme-light,
-.logo-theme-light:link,
-.logo-theme-light:visited,
-.logo-theme-light:hover,
-.logo-theme-light:focus,
-.logo-theme-light:active {
-  color: #000000;
-}
-
-.logo-theme-dark,
-.logo-theme-dark:link,
-.logo-theme-dark:visited,
-.logo-theme-dark:hover,
-.logo-theme-dark:focus,
-.logo-theme-dark:active {
-  color: var(--primary-text-color-theme-dark);
+.logo-theme-dark {
+  &,
+  &:visited,
+  &:active {
+    color: var(--primary-text-color-theme-dark);
+  }
 }
