@@ -2,24 +2,24 @@
   padding-bottom: 47px;
 }
 
-.benefits-list {
+.benefits__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.benefits-item {
+.benefits__item {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.benefits-item-icon-container {
+.benefits__item-icon-container {
   padding: 25px 100px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
 }
 
-.benefits-item-title {
+.benefits__item-title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
@@ -27,7 +27,7 @@
   text-transform: uppercase;
 }
 
-.benefits-item-description {
+.benefits__item-description {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;

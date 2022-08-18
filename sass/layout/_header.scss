@@ -2,7 +2,7 @@
   border-bottom: 1px solid #ececec;
 }
 
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: center;
 }
@@ -12,11 +12,11 @@
   align-items: center;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.menu-link {
+.menu__link {
   display: block;
   position: relative;
   font-weight: 500;
@@ -55,11 +55,11 @@
   }
 }
 
-.header-contacts {
+.page-header__contacts-list {
   display: flex;
   margin-left: auto;
 }
 
-.header-contacts-item:not(:last-child) {
+.page-header__contacts-item:not(:last-child) {
   margin-right: 30px;
 }

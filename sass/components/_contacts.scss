@@ -5,8 +5,8 @@
   letter-spacing: 0.02em;
 }
 
-.contact-phone-theme-light,
-.contact-email-theme-light {
+.contact-phone_theme_light,
+.contact-email_theme_light {
   color: var(--secondary-text-color-theme-light);
   font-weight: 500;
   display: flex;
@@ -21,26 +21,26 @@
   }
 }
 
-.contact-mail-icon,
-.contact-phone-icon {
+.contact-email__icon,
+.contact-phone__icon {
   display: block;
   margin-right: 10px;
 
-  .contact-phone-theme-light &,
-  .contact-email-theme-light & {
+  .contact-phone_theme_light &,
+  .contact-email_theme_light & {
     fill: var(--secondary-text-color-theme-light);
   }
 
-  .contact-phone-theme-light:hover &,
-  .contact-phone-theme-light:focus &,
-  .contact-email-theme-light:hover &,
-  .contact-email-theme-light:focus & {
+  .contact-phone_theme_light:hover &,
+  .contact-phone_theme_light:focus &,
+  .contact-email_theme_light:hover &,
+  .contact-email_theme_light:focus & {
     fill: var(--accent-color);
   }
 }
 
-.contact-phone-theme-dark,
-.contact-email-theme-dark {
+.contact-phone_theme_dark,
+.contact-email_theme_dark {
   color: var(--secondary-text-color-theme-dark);
   transition: color var(--transition-dur-and-fun);
 

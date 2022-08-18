@@ -6,11 +6,11 @@
   letter-spacing: 0.03em;
 }
 
-.logo-blue-text {
+.logo_accent-text {
   color: var(--accent-color);
 }
 
-.logo-theme-light {
+.logo_theme_light {
   margin-right: 93px;
 
   &,
@@ -20,7 +20,7 @@
   }
 }
 
-.logo-theme-dark {
+.logo_theme_dark {
   &,
   &:visited,
   &:active {

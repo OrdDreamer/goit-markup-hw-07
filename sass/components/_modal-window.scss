@@ -1,4 +1,4 @@
-.modal {
+.modal-window {
   width: 528px;
   background: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -10,7 +10,7 @@
   transform: translate(-50%, -50%);
 }
 
-.modal-close-button {
+.modal-window__close-button {
   background-color: transparent;
   padding: 0;
   position: absolute;
@@ -31,11 +31,11 @@
   }
 }
 
-.modal-close-button-icon {
+.modal-window__close-button-icon {
   transition: fill var(--transition-dur-and-fun);
 
-  .modal-close-button:hover &,
-  .modal-close-button:focus & {
+  .modal-window__close-button:hover &,
+  .modal-window__close-button:focus & {
     fill: var(--accent-color);
   }
 }
